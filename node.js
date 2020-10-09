@@ -7,7 +7,7 @@ class Node {
   constructor(tag, children, classes) {
     // Tag name of the node.
     this.tag = tag;
-    // Array of CSS classes on this element.
+    // Array of CSS class names (string) on this element.
     this.classes = classes;
     // Array of children nodes.
     this.children = children; // All children are of type Node
